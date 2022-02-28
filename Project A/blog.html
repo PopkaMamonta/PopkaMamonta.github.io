@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#563d7c">
+    <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body background="assets/wall.jpg">
+      <div class="container-fluid">
+        <a href="index.html"><img src="assets/logo.png" class="logo_item"><img src="https://x-lines.ru/letters/i/cyrillicbasic/0004/000000/40/0/kbjr611fepknyoe.png"></a>
+
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Вход
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <form class="px-4 py-3">
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Адрес электронной почты</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Пароль</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Пароль">
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                  <label class="form-check-label" for="dropdownCheck">
+                    Запомните меня
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Войти в систему</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Новенький здесь? Зарегистрироваться</a>
+            <a class="dropdown-item" href="#">Забыли пароль?</a>
+          </div>
+        </div> 
+    </div>
+           
+          <div class="carusel">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <img src="assets/left.jpg" class="d-block2 w-75">
+                </div>
+                <div class="col-7">
+                  <nav class="navbar navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Главная<span class="sr-only">(текущая)</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Переключатель навигации">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Каталог
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Действие</a>
+                            <a class="dropdown-item" href="#">Мультфильмы</a>
+                            <a class="dropdown-item" href="#">Сериалы</a>
+                          </div>  
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Совместный просмотр</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Обратная связь</a>
+                        </li>
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+                        </form>
+                      </ul>
+                    </div>
+                  </nav>
+                  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-interval="10000">
+                        <img src="assets/wolf.png" class="d-block w-100" alt="Волк с Уолл-Стрит">
+                      </div>
+                      <div class="carousel-item" data-interval="10000">
+                        <img src="assets/tlotr.jpg" class="d-block w-100" alt="Властелин колец">
+                      </div>
+                      <div class="carousel-item" data-interval="10000">
+                        <img src="assets/titanic.jfif" class="d-block w-100" alt="Титаник">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Следующий</span>
+                    </a>
+                  </div>
+                
+                  <div class="container">
+                    <div class="card text-center">
+                      <div class="card-header">
+                          <ul class="nav nav-pills card-header-pills">
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html">Популярные фильмы онлайн</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" href="blog.html">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#" >Подписка</a>
+                            </li>
+                          </ul>
+                      </div>
+                        <br>
+                        <div class="blog">
+                          <h2 class="blog-title">Lorem ipsum</h2>
+                          <p class="blog-date">26.02.2024</p>
+                  
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Sagittis id consectetur purus ut faucibus pulvinar elementum. Ultrices eros in cursus turpis massa tincidunt dui. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Facilisis gravida neque convallis a cras semper auctor neque. Sem et tortor consequat id porta. Ut morbi tincidunt augue interdum velit euismod. Tincidunt ornare massa eget egestas purus. Eget nullam non nisi est sit amet facilisis magna etiam. Elit ullamcorper dignissim cras tincidunt. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies.</p>
+                          <blockquote>
+                            <p>Egestas pretium aenean pharetra magna ac placerat vestibulum. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit. Mi in nulla posuere sollicitudin. Amet consectetur adipiscing elit duis tristique sollicitudin nibh. Odio euismod lacinia at quis risus sed vulputate odio ut. Orci porta non pulvinar neque laoreet suspendisse interdum. Massa massa ultricies mi quis hendrerit dolor magna eget. Euismod lacinia at quis risus. Pretium aenean pharetra magna ac placerat. Commodo nulla facilisi nullam vehicula ipsum a. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Felis eget velit aliquet sagittis.</p>
+                          </blockquote>
+                            <p>Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Morbi enim nunc faucibus a pellentesque. Condimentum mattis pellentesque id nibh tortor. Aenean vel elit scelerisque mauris pellentesque pulvinar. Volutpat lacus laoreet non curabitur. Viverra vitae congue eu consequat. Maecenas volutpat blandit aliquam etiam erat. Sed viverra ipsum nunc aliquet bibendum. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Aliquam etiam erat velit scelerisque in dictum non consectetur a. Quam id leo in vitae turpis massa sed elementum tempus. Aliquam vestibulum morbi blandit cursus risus at. Sit amet justo donec enim diam. Tellus molestie nunc non blandit. Duis convallis convallis tellus id interdum velit laoreet.</p>
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="blog">
+                          <h2 class="blog-title">Мы добавили поиск</h2>
+                          <p class="blog-date">22.02.2024</p>
+                  
+                          <p>I am ready for the road less traveled. Already <a href="#">brushing off the dust</a>. Yeah, you're lucky if you're on her plane. I used to bite my tongue and hold my breath. Uh, She’s a beast. I call her Karma (come back). Black ray-bans, you know she's with the band. I can't sleep let's run away and don't ever look back, don't ever look back.</p>
+                          <blockquote>
+                            <p>Growing fast into a <strong>bolt of lightning</strong>. Be careful Try not to lead her on</p>
+                          </blockquote>
+                          <p>I'm intrigued, for a peek, heard it's fascinating. Oh oh! Wanna be a victim ready for abduction. She's got that international smile, oh yeah, she's got that one international smile. Do you ever feel, feel so paper thin. I’m gon’ put her in a coma. Sun-kissed skin so hot we'll melt your popsicle.</p>
+                          <p>This is transcendental, on another level, boy, you're my lucky star.</p>
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="blog">
+                          <h2 class="blog-title">Новая фишка</h2>
+                          <p class="blog-date">21.02.2024</p>
+                          <p>From Tokyo to Mexico, to Rio. Yeah, you take me to utopia. I'm walking on air. We'd make out in your Mustang to Radiohead. I mean the ones, I mean like she's the one. Sun-kissed skin so hot we'll melt your popsicle. Slow cooking pancakes for my boy, still up, still fresh as a Daisy.</p>
+                          <p>Don't need apologies. Boy, you're an alien your touch so foreign, it's <em>supernatural</em>, extraterrestrial. Talk about our future like we had a clue. I can feel a phoenix inside of me.</p>
+                        </div>
+                        <br>
+                      </div>
+                  </div>
+                <div class="container">
+                  <footer class="blog-footer">
+                    <p>Свяжитесь с нами</p>
+                    <p>
+                      <a href="#">Наверх</a>
+                    </p>
+                  </footer>
+                </div> 
+                </div>
+                <div class="col">
+                  <img src="assets/right.png" class="d-block1 w-50">
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>    
+</body>
+</html>
